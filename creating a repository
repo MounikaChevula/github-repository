@@ -1,0 +1,13 @@
+How to create a github repository through commands
+
+1.git config --global user.name "Githubid"
+2.git config --global user.email "emailid"
+3.we have to create a directory i.e,"mkdir dirname"
+4.cd dirname
+5.echo "# maven">>README.md
+6.ls
+7.git init
+8.git add README.md
+9.git commit -m "first commit"
+10.git remote & origin https://github.com/username/repositoryname.git
+11.git push -u origin master
